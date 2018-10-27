@@ -44,7 +44,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size: 1rem;
 }
 
-
+/*-------------------COLORS-----------------*/
+.orange {
+  color: #ef522e;
+}
 .title-container {
   background-image: url('img/reforma-integral-piso.jpg');
   padding:80px 0;
