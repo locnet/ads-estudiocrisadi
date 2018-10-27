@@ -24,14 +24,25 @@
 
     <body>
         <div class="container-fluid title-container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12">
                     <h1 class="text-center lato w-100 extra-big">HELLO WORLD</h1>
+                </div>
+                <div class="col-12 text-center">
+                    <h2 class="lato w-400">
+                        <button class="btn btn-lg btn-primary">MY COOL CTA</button>
+                    </h2>
                 </div>
             </div>
         </div>
     </body>
 
     <!-- SCRIPTS -->
-   
+        <!-- Smooth Scroll Efect -->
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js">
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]',{
+                speed:1000,
+            });
+        </script>
 </html>
