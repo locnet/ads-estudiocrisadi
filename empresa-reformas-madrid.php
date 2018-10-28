@@ -7,9 +7,7 @@
 
         
         <meta name="description" content=" ">
-        <title>Estudio Crisadi</title>
-
-       
+        <title>Estudio Crisadi</title>       
 
         <!-- Fonts -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -17,8 +15,7 @@
       
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <link href="main.css" rel="stylesheet">
-    
+        <link href="main.css" rel="stylesheet">   
 
     </head>
 
@@ -30,8 +27,13 @@
                 </div>
                 <div class="col-12 text-center">
                     <h2 class="lato w-400">
-                        <button class="btn btn-lg btn-primary">MY COOL CTA</button>
+                        <a href="#down" role="button" class="btn btn-lg btn-primary">MY COOL CTA</a>
                     </h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2 id="down">hola</h2>
                 </div>
             </div>
         </div>
